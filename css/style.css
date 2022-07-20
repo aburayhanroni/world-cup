@@ -1,0 +1,276 @@
+/* Googel fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* common css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* common css coding stop */
+
+
+/* midia-quarye code start here */
+
+@media screen and (min-width:481px) and (max-width:768px){
+   
+    .text-part {
+        width: 50%;
+    }
+    
+    .articale-title {
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 30px;
+        padding: 0;
+    
+    }
+    
+    .articale-detail {
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 10px;
+        padding: 15px 0px;
+    }
+    
+    .button {
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 8px;
+        color: white;
+        padding: 5px 10px;
+        background: #DD0000;
+        border-radius: 5px;
+    }
+
+}
+
+/* top-articale-part conidg start */
+
+.top-articale-part {
+    background-color: rgb(4, 5, 24);
+    color: whitesmoke;
+    padding: 0px 40px;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.text-part {
+    width: 100%;
+    padding: 50px 0px 0px 0px;
+}
+
+.articale-title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 50px;
+    padding: 0;
+
+}
+
+.articale-detail {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 24px 0px;
+}
+
+.button {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 10px;
+    color: white;
+    padding: 10px 20px;
+    background: #DD0000;
+    border-radius: 5px;
+}
+
+.button>.fa-angle-right {
+    margin-left: 10px;
+}
+
+.images-part {
+    width: 100%;
+}
+
+.images-part img {
+    margin-left: 39%;
+    margin-top: 40px;
+    margin-bottom: -7px;
+
+
+}
+
+/* end top-banner part codding */
+/* --------------------------------- */
+/* start aside nav and blog-item part coding start */
+.blog-contain {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    width: 240px;
+}
+
+.side-nav {
+    background: #1E1E1E;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 15px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.nav-button {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    color: #161616;
+    padding: 10px 10px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.blog-button {
+    background-color: #DD0000;
+    color: whitesmoke;
+}
+
+.blogs-part {
+    width: 100%;
+}
+
+/* aside code end */
+.blogs-part {
+    padding-left: 30px;
+}
+
+.blogs-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: flex-end;
+    flex-direction: column;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+
+.card {
+    width: 300px;
+
+}
+
+.card-info {
+    padding: 10px;
+    border: 1px solid rgba(112, 112, 112, 0.308);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.transfer {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    width: 90px;
+    border: 1px solid #161616;
+    text-align: center;
+}
+
+.card-detail {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 17px;
+    color: #161616;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: -8px;
+}
+
+.duraction-sms {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(22, 22, 22, 0.7);
+    padding: 20px 0px;
+}
+
+.duraction i,
+.sms i {
+    padding-right: 15px;
+}
+
+/* footer part start coding */
+
+footer{
+    width: 100%;
+    background: #161616;
+    margin-top: 50px;
+
+}
+
+.footer-details {
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.footer-title {
+    text-align: center;
+    padding: 30px 0px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 40px;
+    color: whitesmoke;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.others-info {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+ul li{
+    list-style: none;
+    padding: 20px;
+}
+ul li a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    color: #B9B9B9;
+}
+.sosial{
+    width: 300px;
+    margin: 0 auto;
+}
+
+ul li a img{
+    width: 30px;height: 30px;
+    background: #000;
+    border-radius: 25px;
+}

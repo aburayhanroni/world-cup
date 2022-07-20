@@ -1,0 +1,25 @@
+.macth-detail{
+    width: 250px;
+    padding: 30px 20px;
+    text-align: center;
+    border: 1px solid rgba(194, 192, 192, 0.788);
+    border-radius: 5px;
+}
+.flag{
+    display: flex;
+    justify-content: space-between;
+}
+.flag img{
+    width: 150px;
+}
+.vs{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 17px;
+}
+.macth-title{
+
+}
+.macth-sedule{
+
+}

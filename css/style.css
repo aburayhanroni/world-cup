@@ -395,6 +395,9 @@ ul li a {
     ul li {
         text-align: center;
     }
+    .sosial{
+        display: flex;
+    }
 
 
 }

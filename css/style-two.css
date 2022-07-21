@@ -10,11 +10,6 @@
     display: flex;
     justify-content: space-between;
 }
-
-.flag img {
-    /* width: 150px; */
-}
-
 .vs {
     font-size: 20px;
     font-weight: 700;
@@ -24,5 +19,3 @@
 .macth-title {
     padding: 10px 0px;
 }
-
-.macth-sedule {}

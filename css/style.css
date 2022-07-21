@@ -269,16 +269,11 @@ ul li a {
 
 
 /* tablate device code start */
-@media screen and (min-width:577px) and (max-width:768px) {
+@media screen and (min-width:577px) and (max-width:992px) {
 
     .text-part {
         width: 100%;
     }
-
-    .container {
-        width: 750px;
-    }
-
     .articale-title {
         font-size: 30px;
     }
